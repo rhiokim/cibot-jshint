@@ -1,17 +1,17 @@
 #intro
-cibot-jslint 는 node.js 기반으로 동작하는 [jslint][1]로 cibot 프로젝트의 일부 모듈로 사용되기 위에 작성되었습니다.
+cibot-jshint 는 node.js 기반으로 동작하는 [jshint][1]로 cibot 프로젝트의 일부 모듈로 사용되기 위에 작성되었습니다.
 
 #module
-https://github.com/douglascrockford/JSLint
+https://github.com/jshint/jshint
 
 #install
 
 ```
---$ npm install cibot-jslint--
+--$ npm install cibot-jshint--
 
 or
 
-$ git clone git@github.com:rhiokim/cibot-jslint.git
+$ git clone git@github.com:rhiokim/cibot-jshint.git
 $ git submodule update --init
 ```
 
@@ -20,7 +20,7 @@ $ git submodule update --init
 *app.js*
 
 ```js
-var linter = require('cibot-jslint');
+var linter = require('cibot-jshint');
 
 var res = linter.verify('var foo = 1');
 console.log(res);
@@ -45,4 +45,4 @@ console.log(res);
 */
 ```
 
-[1]:http://www.jslint.com/
+[1]:http://www.jshint.com/
