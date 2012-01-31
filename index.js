@@ -1,1 +1,1 @@
-module.exports = require('./lib/cibot-hint');
+module.exports = require('./lib/cibot-jshint');
